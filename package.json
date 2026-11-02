@@ -1,0 +1,11 @@
+{
+  "name": "research-platform",
+  "version": "1.0.0",
+  "description": "AI-Powered Research & Project Intelligence Platform",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "start cmd /k \"cd backend && npm run dev\" && start cmd /k \"cd frontend && npm run dev\"",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  }
+}
